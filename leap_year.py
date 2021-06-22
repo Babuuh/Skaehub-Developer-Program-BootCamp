@@ -1,6 +1,6 @@
 year = int(input('Enter any year: '))
 
-#defining the function
+#function definition
 def is_leap_year(year):
     if (year % 4 ) == 0:
         if(year % 100 ) == 0:
