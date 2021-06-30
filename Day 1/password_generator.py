@@ -1,6 +1,8 @@
 import random 
 
 letters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJLMNOPQRSTUVWXYZ!@#$%^&*()?1234567890'
+user_input = ''
+password = ''
 
 def password_generator():
   user_input = input("How strong do you wnat your password?  Reply with 'weak', 'medium' or 'strong' ")
